@@ -11,9 +11,30 @@
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="./input.css" />
     <script src="https://unpkg.com/eva-icons"></script>
-
-    <link href="../dist/output.css" rel="stylesheet" />
+    <style type="text/tailwindcss">
+      @layer components {
+        .item-nav {
+          @apply ml-8 cursor-pointer text-slate-500;
+        }
+      }
+    </style>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              poppins: 'Poppins',
+            },
+            colors: {
+              purple: '#6E62E4',
+            },
+          },
+        },
+      };
+    </script>
+    <script src="https://cdn.tailwindcss.com"></script>
     <title>Fair Pricing</title>
   </head>
   <body>

@@ -1,11 +1,3 @@
-@tailwind base;
-@tailwind components;
-
-.item-nav {
-  @apply ml-8 cursor-pointer text-slate-500;
-}
-@tailwind utilities;
-
 * {
   font-family: 'Poppins';
 }
