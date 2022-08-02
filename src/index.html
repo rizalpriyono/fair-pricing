@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://unpkg.com/eva-icons"></script>
+
+    <link href="../dist/output.css" rel="stylesheet" />
+    <title>Fair Pricing</title>
+  </head>
+  <body>
+    <div class="bg-[#F3F6FD] min-h-screen overflow-hidden">
+      <!-- Navbar -->
+      <div
+        class="flex py-10 px-10 lg:px-[90px] justify-between transition-all duration-1000"
+      >
+        <h1 class="text-2xl font-semibold">
+          Every<span class="text-purple">Price</span>
+        </h1>
+        <div class="md:hidden">
+          <i data-eva="menu-outline" data-eva-fill="#697789"></i>
+        </div>
+        <div class="hidden md:block">
+          <ul class="flex">
+            <li class="item-nav">home</li>
+            <li class="item-nav">features</li>
+            <li class="item-nav">stories</li>
+            <li class="item-nav text-slate-800 font-medium">pricing</li>
+            <li class="item-nav">about</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Pricing -->
+      <section class="max-w-7xl mx-auto h-full mt-6">
+        <div class="w-full mx-auto text-center my-auto">
+          <h1 class="text-3xl font-semibold">
+            <span class="text-purple">Plans</span> That Works
+          </h1>
+          <p class="text-slate-500 mt-2 max-w-xs mx-auto">
+            Choose a plan that works best for your own future company
+          </p>
+
+          <div
+            class="flex flex-col lg:flex-row justify-center items-center mt-16 gap-10 px-10 lg:gap-0"
+          >
+            <!-- Starter -->
+            <div
+              class="min-w-full lg:min-w-[290px] h-[323px] bg-white p-8 rounded-3xl flex flex-col"
+            >
+              <div class="flex items-center">
+                <img src="./assets/icon-starter.svg" alt="icon-starter" />
+                <div class="ml-4">
+                  <h1 class="font-medium text-xl">Starter</h1>
+                  <p class="text-slate-400 text-sm items-center flex mt-1">
+                    <span class="text-[18px] mb-2">$</span>
+                    <span class="font-medium text-2xl text-purple mx-1">5</span
+                    >/user
+                  </p>
+                </div>
+              </div>
+              <hr class="my-5" />
+              <div class="flex">
+                <i
+                  data-eva="checkmark-circle-2-outline"
+                  data-eva-fill="#6E62E4"
+                ></i>
+                <p class="text-slate-500 ml-3">
+                  Get started with
+                  <span class="text-slate-800 font-semibold">Blast</span>
+                </p>
+              </div>
+
+              <div class="flex mt-4">
+                <i
+                  data-eva="checkmark-circle-2-outline"
+                  data-eva-fill="#6E62E4"
+                ></i>
+                <p class="text-slate-500 ml-3">
+                  <span class="text-slate-800 font-semibold">10 TB </span>
+                  cloud storage
+                </p>
+              </div>
+
+              <button
+                type="button"
+                class="bg-purple rounded-full w-full py-4 text-white mt-auto"
+              >
+                Choose Plan
+              </button>
+            </div>
+
+            <!-- Enterprise -->
+            <div
+              class="min-w-full lg:min-w-[350px] h-[430px] bg-[#3A3379] p-8 rounded-3xl flex flex-col shadow-xl lg:scale-105"
+            >
+              <div class="flex items-center">
+                <img src="./assets/icon-enterprise.svg" alt="icon-starter" />
+                <div class="ml-4">
+                  <h1 class="font-medium text-xl text-white">Enterprise</h1>
+                  <p class="text-[#B2ADE1] items-center flex mt-1">
+                    <span class="text-[18px] mb-2">$</span>
+                    <span class="font-medium text-3xl text-[#FFBEB2] mx-2"
+                      >22</span
+                    >/user
+                  </p>
+                </div>
+              </div>
+              <hr class="my-8 border-[#564F96]" />
+              <div class="flex items-center mb-4">
+                <i
+                  data-eva="checkmark-circle-2-outline"
+                  data-eva-fill="#ffffff"
+                ></i>
+                <p class="text-[#B2ADE1] ml-3 text-xl">
+                  All features in
+                  <span class="text-white font-semibold">Starter</span>
+                </p>
+              </div>
+
+              <div class="flex items-center mb-4">
+                <i
+                  data-eva="checkmark-circle-2-outline"
+                  data-eva-fill="#ffffff"
+                ></i>
+                <p class="text-[#B2ADE1] ml-3 text-xl">
+                  <span class="text-white font-semibold">Unlimited</span>
+                  Report
+                </p>
+              </div>
+
+              <div class="flex items-center mb-4">
+                <i
+                  data-eva="checkmark-circle-2-outline"
+                  data-eva-fill="#ffffff"
+                ></i>
+                <p class="text-[#B2ADE1] ml-3 text-xl">
+                  <span class="text-white font-semibold">280 TB</span>
+                  cloud storage
+                </p>
+              </div>
+
+              <button
+                type="button"
+                class="bg-[#FFBEB2] rounded-full w-full py-5 mt-auto font-semibold"
+              >
+                Choose Plan
+              </button>
+            </div>
+
+            <!-- Medium -->
+            <div
+              class="min-w-full lg:min-w-[290px] h-[323px] bg-white p-8 rounded-3xl flex flex-col"
+            >
+              <div class="flex items-center">
+                <img src="./assets/icon-medium.svg" alt="icon-starter" />
+                <div class="ml-4">
+                  <h1 class="font-medium text-xl">Medium</h1>
+                  <p class="text-slate-400 text-sm items-center flex mt-1">
+                    <span class="text-[18px] mb-2">$</span>
+                    <span class="font-medium text-2xl text-purple mx-1">10</span
+                    >/user
+                  </p>
+                </div>
+              </div>
+              <hr class="my-5" />
+              <div class="flex">
+                <i
+                  data-eva="checkmark-circle-2-outline"
+                  data-eva-fill="#6E62E4"
+                ></i>
+                <p class="text-slate-500 ml-3">
+                  All features in
+                  <span class="text-slate-800 font-semibold">Starter</span>
+                </p>
+              </div>
+
+              <div class="flex mt-4">
+                <i
+                  data-eva="checkmark-circle-2-outline"
+                  data-eva-fill="#6E62E4"
+                ></i>
+                <p class="text-slate-500 ml-3">
+                  <span class="text-slate-800 font-semibold">180 TB </span>
+                  cloud storage
+                </p>
+              </div>
+
+              <button
+                type="button"
+                class="bg-purple rounded-full w-full py-4 text-white mt-auto"
+              >
+                Choose Plan
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <script>
+      eva.replace();
+    </script>
+  </body>
+</html>
